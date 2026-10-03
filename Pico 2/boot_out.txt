@@ -1,0 +1,4 @@
+Adafruit CircuitPython 10.3.1 on 2026-09-14; Raspberry Pi Pico 2 with rp2350a
+Board ID:raspberry_pi_pico2
+UID:FC251CA7391AEC97
+boot.py salida:
