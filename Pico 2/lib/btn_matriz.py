@@ -24,7 +24,7 @@ pin_columnas = [board.GP0, board.GP1, board.GP2, board.GP3, board.GP4, board.GP5
 NUM_FILAS = len(pin_filas)
 NUM_COLUMNAS = len(pin_columnas)
 
-PULSO_NS = 35_000_000  # duración del pulso: 50 ms
+PULSO_NS = 80_000_000  # duración del pulso: 50 ms
 MAX_BOTONES = 46       # debe coincidir con el descriptor de boot.py
 
 # (tipo, fila, columna)  -> para "sw3", la columna es la de "arriba"
