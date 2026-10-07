@@ -20,7 +20,7 @@ import time
 
 # Filas: OUTPUT LOW al escanear. Columnas: INPUT con PULL UP.
 pin_filas = [board.GP10, board.GP11]
-pin_columnas = [board.GP0, board.GP1, board.GP2, board.GP3, board.GP4]
+pin_columnas = [board.GP0, board.GP1, board.GP2, board.GP3, board.GP4, board.GP5, board.GP6, board.GP7, board.GP8, board.GP9]
 NUM_FILAS = len(pin_filas)
 NUM_COLUMNAS = len(pin_columnas)
 
@@ -31,10 +31,18 @@ MAX_BOTONES = 46       # debe coincidir con el descriptor de boot.py
 ELEMENTOS = [
     ("sw2", 0, 0),
     ("sw3", 0, 1),
-    ("sw3", 0, 3),
+    ("sw2", 0, 3),
+    ("sw3", 0, 4),
+    ("sw3", 0, 6),
+    ("sw3", 0, 8),
     ("sw2", 1, 0),
     ("sw3", 1, 1),
-    ("sw3", 1, 3),
+    ("sw2", 1, 3),
+    ("sw2", 1, 4),
+    ("sw2", 1, 5),
+    ("sw2", 1, 6),
+    ("sw2", 1, 7),
+    ("sw3", 1, 8)
 ]
 
 _ANCHO = {"btn": 1, "sw2": 2, "sw3": 2}
