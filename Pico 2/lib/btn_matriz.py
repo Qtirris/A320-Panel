@@ -19,7 +19,7 @@ import board
 import time
 
 # Filas: OUTPUT LOW al escanear. Columnas: INPUT con PULL UP.
-pin_filas = [board.GP10, board.GP11]
+pin_filas = [board.GP10, board.GP11,board.GP12,board.GP13]
 pin_columnas = [board.GP0, board.GP1, board.GP2, board.GP3, board.GP4, board.GP5, board.GP6, board.GP7, board.GP8, board.GP9]
 NUM_FILAS = len(pin_filas)
 NUM_COLUMNAS = len(pin_columnas)
