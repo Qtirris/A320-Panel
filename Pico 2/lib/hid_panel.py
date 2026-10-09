@@ -3,7 +3,7 @@ import time
 
 from adafruit_hid import find_device
 
-NUM_BOTONES = 46  # debe coincidir con Usage Maximum / Report Count de boot.py
+NUM_BOTONES = 64  # debe coincidir con Usage Maximum / Report Count de boot.py
 
 
 class Panel:
