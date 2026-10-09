@@ -25,11 +25,8 @@ NUM_FILAS = len(pin_filas)
 NUM_COLUMNAS = len(pin_columnas)
 
 PULSO_NS = 80_000_000  # duración del pulso: 50 ms
-<<<<<<< HEAD
-MAX_BOTONES = 46       # debe coincidir con el descriptor de boot.py
-=======
+
 MAX_BOTONES = 64       # debe coincidir con el descriptor de boot.py
->>>>>>> 843fede (4 Filas funcionales (casi))
 
 # (tipo, fila, columna)  -> para "sw3", la columna es la de "arriba"
 ELEMENTOS = [
